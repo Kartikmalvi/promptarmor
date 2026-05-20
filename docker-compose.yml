@@ -1,0 +1,35 @@
+# docker-compose.yml defines the services (containers) that make up your app
+version: '3.8' # The version of the docker-compose file format
+
+services:
+  backend: # The backend FastAPI service
+    build: ./backend # Tells Docker to build the image from the Dockerfile in the /backend folder
+    ports:
+      - "8000:8000" # Maps port 8000 on your Windows machine to port 8000 inside the container
+    env_file:
+      - .env # Loads environment variables from the local .env file
+    networks:
+      - promptarmor-net # Connects this service to our custom network so it can talk to the frontend
+    healthcheck: # Periodically checks if the service is running properly
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"] # The command to check health
+      interval: 30s # Waits 30 seconds between each health check
+      timeout: 10s # Fails the check if it takes longer than 10 seconds
+      retries: 3 # Try 3 times before considering the service unhealthy
+
+  frontend: # The frontend React/Vite service
+    build: ./frontend # Tells Docker to build the image from the Dockerfile in the /frontend folder
+    ports:
+      - "5173:5173" # Maps port 5173 on your Windows machine to port 5173 inside the container
+    env_file:
+      - .env # Loads environment variables from the local .env file
+    networks:
+      - promptarmor-net # Connects this service to the exact same custom network
+    healthcheck: # Periodically checks if the frontend service is running properly
+      test: ["CMD", "curl", "-f", "http://localhost:5173/"] # The command to check health
+      interval: 30s # Waits 30 seconds between each health check
+      timeout: 10s # Fails the check if it takes longer than 10 seconds
+      retries: 3 # Try 3 times before considering the service unhealthy
+
+networks:
+  promptarmor-net: # Defines the custom network used by both services to communicate with each other
+    driver: bridge # The default network driver for containers on the same host
