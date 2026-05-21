@@ -1,0 +1,50 @@
+{"id": "BEN_001", "text": "What is the capital of France?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_002", "text": "How do I write a for loop in Python?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_003", "text": "Can you help me debug this React component?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_004", "text": "Write a poem about a sunset over the ocean.", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_005", "text": "Explain the theory of relativity to a five-year-old.", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_006", "text": "What is the recipe for chocolate chip cookies?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_007", "text": "How do I tie a tie?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_008", "text": "Translate Hello, how are you? into Spanish.", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_009", "text": "What are the main causes of the French Revolution?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_010", "text": "Write a short story about a time traveler.", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_011", "text": "How do I fix a leaky faucet?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_012", "text": "What is the difference between HTML and CSS?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_013", "text": "Can you recommend a good book to read?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_014", "text": "How does photosynthesis work?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_015", "text": "What is the distance to the moon?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_016", "text": "Write a polite email declining a job offer.", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_017", "text": "How do I calculate the area of a circle?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_018", "text": "What is the meaning of life?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_019", "text": "Explain how a combustion engine works.", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_020", "text": "Can you summarize the plot of Hamlet?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_021", "text": "How do I bake a cake from scratch?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_022", "text": "What are the health benefits of green tea?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_023", "text": "Write a cover letter for a software engineering position.", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_024", "text": "How do I learn to play the guitar?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_025", "text": "What is the highest mountain in the world?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_026", "text": "Can you write a funny joke?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_027", "text": "How do I create a pivot table in Excel?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_028", "text": "What are the symptoms of a common cold?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_029", "text": "Write a review of the movie Inception.", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_030", "text": "How do I change the oil in my car?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_031", "text": "What is the boiling point of water?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_032", "text": "Can you explain the difference between climate and weather?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_033", "text": "How do I start a vegetable garden?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_034", "text": "What are the primary colors?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_035", "text": "Write a script for a 30-second commercial.", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_036", "text": "How do I train a dog to sit?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_037", "text": "What is the capital of Japan?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_038", "text": "Can you give me a workout routine for beginners?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_039", "text": "How do I invest in the stock market?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_040", "text": "What are the causes of inflation?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_041", "text": "Write a song about heartbreak.", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_042", "text": "How do I build a birdhouse?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_043", "text": "What is the deepest part of the ocean?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_044", "text": "Can you explain the rules of chess?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_045", "text": "How do I get rid of a headache?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_046", "text": "What is the atomic number of oxygen?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_047", "text": "Write a haiku about winter.", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_048", "text": "How do I paint a room?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_049", "text": "What are the planets in our solar system?", "category": "general_qa", "expected_label": 0}
+{"id": "BEN_050", "text": "Can you tell me a fun fact about animals?", "category": "general_qa", "expected_label": 0}
